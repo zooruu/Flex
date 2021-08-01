@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section-header {
+  padding-bottom: 40px;
+}
+
+.section-header h2 {
+  color: #4154f1;
+  font-size: 26px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  color: #013289;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+}
+
+.section-header p {
+  color: #012970;
+  font-size: 38px;
+}
+
+#hero {
+  background-image: url(../img/hero-bg.png);
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#who .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+#values .box {
+  box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+  padding: 30px;
+}
+
+#value .box h3 {
+  font-size: 24px;
+}
+
+#counts .count-box {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#features .feature-box {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#service .box {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#pricing .box {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+
+#team .box-img {
+  position: relative;
+}
+
+#team .box-img::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -1%;
+  left: 0;
+  background: url(../img/team-shape.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  z-index: 2;
+}
+
+#footer a {
+  color: #013289;
+  text-decoration: none;
+}
+` #footer h4 {
+  color: #013289;
+  font-size: 14px;
+}
+
+#footer li {
+  font-size: 12px;
+  list-style: none;
+  margin-bottom: 8px;
+}
